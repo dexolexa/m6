@@ -10,3 +10,10 @@ import HeAdEr from "./components/HeAdEr.vue";
     <RouterView />
   </main>
 </template>
+
+<style scoped>
+main {
+  background: #272b30;
+  min-height: 100vh;
+}
+</style>
