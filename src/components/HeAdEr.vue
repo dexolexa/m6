@@ -6,6 +6,11 @@
     <router-link to="/shooter">Shooter</router-link>
     <router-link to="/horror">Horror</router-link>
     <router-link to="/br">Battle Royale</router-link>
+    <router-link to="/card">Card Games</router-link>
+    <router-link to="/racing">Racing</router-link>
+    <router-link to="/scientificfiction">Sci-fi</router-link>
+    <router-link to="/strategy">Strategy</router-link>
+    <router-link to="/topdown">Top Down</router-link>
   </header>
 </template>
 

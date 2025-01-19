@@ -5,13 +5,13 @@ import { onBeforeMount, ref } from "vue";
 
 let games = ref([]);
 onBeforeMount(async () => {
-  games.value = await GamesCategory("fantasy", "popularity");
+  games.value = await GamesCategory("sci-fi");
 });
 console.log(games);
 </script>
 <template>
   <section>
-    <h1>Fantasy Games</h1>
+    <h1>sci-fi</h1>
     <div class="main">
       <Card v-for="(item, index) in games" :key="index" :game="item" />
     </div>
